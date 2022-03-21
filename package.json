@@ -1,0 +1,16 @@
+{
+  "name": "projetoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh scripts.sh",
+    "start":"node src/index.js", 
+    "dev": "npx nodemon src/index.js"
+  },
+  "author": "Carlos Dalollio",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
